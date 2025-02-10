@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.container{
+    height: 500px;
+    width: 600px;
+    background-color: #EC6666;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 40px;
+    border-radius: 30PX;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.link a{
+    color: white;
+    font-size: x-large;
+}
+
+.imgdiv{
+    font-size: larger;
+}
+.imgdiv img{
+    background-color: transparent;
+}
