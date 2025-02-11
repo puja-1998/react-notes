@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btns{
+  height: 30px;
+  width: fit-content;
+  text-align: center;
+  color: white;
+ 
+}
+
+.incbtn{
+  background-color: green;
+  margin-right: 50px;
+  cursor: pointer;
+  padding: 10px;
+}
+.decbtn{
+  background-color: red;
+  cursor: pointer;
+  padding: 10px;
+}
+

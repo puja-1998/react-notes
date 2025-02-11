@@ -60,3 +60,12 @@ const obj = (
     </div>
 );
 ReactDOM.render(obj,document.querySelector("#root"));
+
+// create class component
+
+class car extends React.Component{
+    render(){
+        return <h2>Hi, I am a Car!</h2>;
+    }
+}
+ReactDOM.render(<car/>,document.querySelector("#root"));

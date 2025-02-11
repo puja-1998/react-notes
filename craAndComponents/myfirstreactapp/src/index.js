@@ -4,21 +4,30 @@ import './index.css';
 const container = document.getElementById('root')
 const root = ReactDOM.createRoot(container);
 
-const element = 
-<table>
-  <tr>
-    <th>Name</th>
-  </tr>
-  <tr>
-    <td>Pooja</td>
-  </tr>
-  <tr>
-    <td>Rokade</td>
-  </tr>
-</table>
-root.render(
-  element
-);
+// const element = 
+// <table>
+//   <tr>
+//     <th>Name</th>
+//   </tr>
+//   <tr>
+//     <td>Pooja</td>
+//   </tr>
+//   <tr>
+//     <td>Rokade</td>
+//   </tr>
+// </table>
+// root.render(
+//   element
+// );
+
+// create class component
+
+class Car extends React.Component{
+  render(){
+      return <h2>Hi, I am a Car!</h2>;
+  }
+}
+root.render(<Car/>)
 
 
 
