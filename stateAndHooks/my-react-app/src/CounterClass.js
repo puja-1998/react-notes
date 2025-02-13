@@ -22,7 +22,7 @@ class CounterClass extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Counter</h1>
+        <h1>Hi I am Class Counter</h1>
         <h1>{this.state.num}</h1>
         <div className="btns">
           <button onClick={this.increment} className="incbtn">Increment</button>

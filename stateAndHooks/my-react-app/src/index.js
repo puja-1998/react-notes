@@ -7,12 +7,13 @@ import CounterClass from './CounterClass';
 import CounterFunction from './CounterFunction';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<CounterFunction/>)
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+//root.render(<CounterFunction/>)
+ root.render(
+  <React.StrictMode>
+    <CounterFunction/><hr/>
+    <CounterClass/><hr/>
+  </React.StrictMode>
+ );
 
 
 reportWebVitals();

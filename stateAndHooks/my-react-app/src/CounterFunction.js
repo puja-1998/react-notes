@@ -19,7 +19,7 @@ export default function CounterFunction(){
     }
     return(
         <div className="container">
-            <h1>Counter</h1>
+            <h1>Hi I am a Function Counter</h1>
             <h1>{num}</h1>
             <div className='btns'>
                 <button onClick={increment}className='incbtn'>Increment</button>
