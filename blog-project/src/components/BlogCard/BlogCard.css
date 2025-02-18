@@ -1,0 +1,18 @@
+.blog-container {
+    background-color: gray;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .like-btn {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
