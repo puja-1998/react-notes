@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Button from './components/Button';
 const container = document.getElementById('root')
 const root = ReactDOM.createRoot(container);
 
@@ -57,8 +58,10 @@ const root = ReactDOM.createRoot(container);
 // }
 //  root.render(<Garage/>);
 
-function obj(){
-  return <h1>Hi I am Pooja</h1>
-}
-root.render(<obj/>)
+// function obj(){
+//   return <h1>Hi I am Pooja</h1>
+// }
+ root.render(<Button name="Know More"/>);
+ root.render(<Button name="home"/>);
+ root.render(<Button name="About"/>);
 
