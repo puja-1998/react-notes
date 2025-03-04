@@ -5,6 +5,7 @@ import Info from "./components/Info";
 import ColorCard from "./components/ColorCard";
 import { useState } from "react";
 import ChangeMeBtn from './components/ChangeMeBtn';
+import CounterApp from './components/CounterApp';
 function App() {
    const data= { name: "Pooja", age: 25, city: "Delhi"};
 
@@ -95,6 +96,9 @@ function App() {
 
     <h1>Change Me Button Component</h1><hr />
     <ChangeMeBtn/><hr /><hr />
+
+    <h1>Counter App</h1><hr />
+    <CounterApp/><hr /><hr />
     </>
     
   );
