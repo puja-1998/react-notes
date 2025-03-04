@@ -4,33 +4,9 @@ import PropsComponent from "./PropsComponent";
 import Info from "./components/Info";
 import ColorCard from "./components/ColorCard";
 import { useState } from "react";
+import ChangeMeBtn from './components/ChangeMeBtn';
 function App() {
-  // propsComponent
-
    const data= { name: "Pooja", age: 25, city: "Delhi"};
-  // return (
-  //   <>
-  //   <h2>Hi I am Pooja!</h2>
-  //   <PropsComponent {...data}/>
-  //   </
-  // );
-
-  // Card Component
-  // return(
-  //   <div style={{display:"flex",  gap:"20px", flexDirection:"column"}}>
-  //   <Card props={{name:"iphone-13", price:150000}}/>
-  //   <Card props={{name:"iphone-14", price:150000}}/>
-  //   <Card props={{name:"iphone-15", price:150000}}/>
-  //   </div>
-  // );
-
-  // Info Component
-  // return(
-  //   // Pass String,Number, Boolean as a Props
-  //   <Info name="Pravin" age={27} isMale={true}/>
-  // );
-
-  // Color Card Component
 
   const [ColorList] = useState([
     {
@@ -116,6 +92,9 @@ function App() {
     <h2>Hi I am Pooja!</h2>
     <PropsComponent {...data}/>
     </div><hr /><hr />
+
+    <h1>Change Me Button Component</h1><hr />
+    <ChangeMeBtn/><hr /><hr />
     </>
     
   );
