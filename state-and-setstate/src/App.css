@@ -1,9 +1,9 @@
-.App {
+.main {
   text-align: center;
 }
 
 
-.App-header {
+.container {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,6 +19,10 @@
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
+}
+.btns, .details{
+  display: flex;
+  gap: 10px;
 }
 
 
